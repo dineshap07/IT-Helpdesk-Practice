@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raise IT Ticket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Raise IT Support Ticket</h1>
+    <p>Describe your IT issue below.</p>
+
+    
+<form id="ticketForm">
+    <label>Employee Name:</label>
+    <input type="text" id="employee" required>
+
+    <br><br>
+
+    <label>Issue Category:</label>
+    <select id="category">
+        <option>Laptop Issue</option>
+        <option>Network Issue</option>
+        <option>Email Issue</option>
+        <option>Software Issue</option>
+    </select>
+
+    <br><br>
+
+    <label>Issue Description:</label>
+    <textarea id="description" required></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit Ticket</button>
+</form>
+
+<p id="result"></p>
+
+<p><a href="index.html">Back to Home</a></p>
+
+<script src="script.js"></script>
+</body>
+</html>
